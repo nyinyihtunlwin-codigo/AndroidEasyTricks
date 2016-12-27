@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Database Tester</string>
+    <string name="upload_url">http://192.168.43.138:8080/demoservice/api/demo/upload</string>
+    <string name="search_url">http://192.168.43.138:8080/demoservice/api/demo/search/</string>
+    <string name="update_url">"http://192.168.43.138:8080/demoservice/api/demo/update"</string>
+    <string name="del_url">"http://192.168.43.138:8080/demoservice/api/demo/delete"</string>
+</resources>

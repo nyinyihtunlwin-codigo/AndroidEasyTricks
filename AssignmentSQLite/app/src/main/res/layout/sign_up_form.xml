@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/login_back"
+        android:gravity="center"
+        android:text="Sign Up Here !"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        android:padding="30dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/lOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/etFname"
+            style="@style/et_style"
+            android:hint="First Name" />
+
+        <EditText
+            android:id="@+id/etLname"
+            style="@style/et_style"
+            android:hint="Last Name" />
+
+        <LinearLayout
+            style="@style/et_style"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:text="Gender"
+                android:textSize="18sp" />
+
+            <RadioGroup
+                android:id="@+id/rGroup"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rMail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Male" />
+
+                <RadioButton
+                    android:id="@+id/rFemale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Female" />
+            </RadioGroup>
+        </LinearLayout>
+
+
+        <EditText
+            android:id="@+id/etNrc"
+            style="@style/et_style"
+            android:hint="NRC" />
+
+        <LinearLayout
+            style="@style/et_style"
+            android:orientation="horizontal"
+            android:paddingTop="5dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:text="City"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/citySpin"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:entries="@array/city" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/etPass"
+            style="@style/et_style"
+            android:hint="Password" />
+
+        <EditText
+            android:id="@+id/etPhno"
+            style="@style/et_style"
+            android:hint="Phone Number" />
+
+        <EditText
+            android:id="@+id/etAddress"
+            style="@style/et_style"
+            android:hint="Address" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnReset"
+                style="@style/et_style"
+                android:layout_weight="1"
+                android:text="Reset" />
+
+            <Button
+                android:id="@+id/btnRegister"
+                style="@style/et_style"
+                android:layout_weight="1"
+                android:text="Register" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Assignment SQLite</string>
+    <string-array name="city">
+        <item>Yangon</item>
+        <item>Mandalay</item>
+        <item>Magway</item>
+        <item>Taunggyi</item>
+        <item>Kalaw</item>
+        <item>Bagan</item>
+        <item>Lashiao</item>
+        <item>Pyin Oo Lwin</item>
+    </string-array>
+</resources>
